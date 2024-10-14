@@ -1,4 +1,4 @@
-# Brain Tumor Image Classification
+# Brain Tumor MRI for Brain Tumor Classification
 
 <img src="img/output.png" alt="Brain Tumor Classification Output" width="600" />
 
@@ -7,13 +7,16 @@
 This project aims to classify brain tumor images using **deep learning** techniques, specifically through **transfer learning** with the **VGG16** architecture. Leveraging pre-trained models allows us to harness the power of deep learning without requiring vast amounts of training data. This approach enhances our model's accuracy and efficiency, making it suitable for medical image classification tasks.
 
 ### Key Features
-- **Transfer Learning**: Utilizes the VGG16 model, pre-trained on ImageNet, to extract relevant features from brain tumor images.
 - **Image Pre-processing**: Images are pre-processed for better model performance, including resizing, normalization, and data augmentation techniques to improve generalization.
+
 - **Train, Validation, and Test Split**: The dataset is split into training, validation, and test sets, ensuring robust evaluation and preventing data leakage.
+
+- **Transfer Learning**: Utilizes the VGG16 model, pre-trained on ImageNet, to extract relevant features from brain tumor images.
+
 
 ## Methodology
 
-1. **Data Collection**: A dataset of brain tumor images is used for classification tasks.
+1. **Dataset**: A dataset of brain tumor images can be installed from Kaggle [Brain_Tumor_MRI_Classification](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection/data)
 2. **Pre-processing**: 
     - Images are resized to fit the VGG16 input dimensions (224x224 pixels).
     - Normalization is applied to standardize the input data.
